@@ -76,6 +76,7 @@ def main(argv):
             addressObjectMask=mask2cidr(linetokens[5])
             addressObjectIP=linetokens[4]
             print "set security address-book global address " + addressObjectName + " " + addressObjectIP + addressObjectMask
+    print '\n'
     configfile.close()
 # set address "Trust" "Host 10.100.1.129/32" 10.100.1.129 255.255.255.255
 
